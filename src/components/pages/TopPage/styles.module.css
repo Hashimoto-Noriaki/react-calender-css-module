@@ -1,0 +1,23 @@
+.h1 {
+    text-align:center;
+}
+
+.text-3xl {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
