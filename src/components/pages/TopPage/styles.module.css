@@ -1,11 +1,11 @@
-.container {
+.flex {
     display:flex;
-    align-items:center;
-    justify-content:center;
-    height:100vh;
 }
 
-.underline {
-    text-decoration:underline;
-    color:lime;
+.justifyBetween {
+    justify-content:space-between;
+}
+
+.gap5 {
+    gap:20px;
 }
