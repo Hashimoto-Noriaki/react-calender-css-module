@@ -1,11 +1,40 @@
-.flex {
-    display:flex;
+.relative {
+    position: relative;
 }
 
-.justifyBetween {
-    justify-content:space-between;
+.header {
+    line-height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
-.gap5 {
-    gap:20px;
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1500px; /* Adjust as needed */
+}
+
+.logo {
+    color: #ffffff;
+    text-shadow: 
+        1px  1px 1px #3f6212,
+      -1px  1px 1px #3f6212,
+        1px -1px 1px #3f6212,
+      -1px -1px 1px #3f6212,
+        1px  0px 1px #3f6212,
+        0px  1px 1px #3f6212,
+      -1px  0px 1px #3f6212,
+        0px -1px 1px #3f6212;
+}
+
+.nav {
+    display: flex;
+    gap: 20px; /* Adjust for spacing */
+}
+
+.navItem {
+    color: #65a30d; /* Text color matching 'text-lime-800' */
 }
